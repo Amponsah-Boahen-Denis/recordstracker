@@ -1,0 +1,28 @@
+.App{
+    background-color:black;
+   min-height:100vh;
+   max-height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    h2{
+        color: blue;
+        font-size: 35px;
+        font-family:serif;
+        justify-self: center;
+        margin-left: 35%;
+        margin-bottom: 10px;
+    }
+    .she{
+        border:2px solid black;
+        display: flex;
+        justify-content: center;
+       max-height: auto;
+       min-height: 80vh;
+       width: 120vh;
+      position: relative;
+        margin-top: 30px;
+        align-self: center;
+        
+    }
+}

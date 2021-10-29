@@ -1,0 +1,9 @@
+.cust {
+  background-color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: grow;
+      -ms-flex: grow bottom 1;
+          flex: grow bottom 1;
+}/*# sourceMappingURL=customers.css.map */

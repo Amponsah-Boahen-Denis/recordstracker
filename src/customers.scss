@@ -1,0 +1,48 @@
+.cust{
+background-color: white;
+height: 60vh;
+  margin-top: 20vh;  
+  margin-left: -40vh;
+  width: 30vh;
+  border-right: 1px solid black;
+  overflow:hidden;
+  overflow-y:scroll;
+  h1{
+    font-size: 15px;
+    margin-top:0px;
+    color: green;
+    position:fixed;
+    div{
+      color: white;
+    }
+  }
+  .custlist{
+    color: black;
+    font-size: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+    
+    b{
+      button{
+        margin-left:40px;
+        
+        color: brown;
+      }
+      img{
+        position: relative;
+        height:18px;
+        width: 20px;
+        margin-left:0px;
+        margin-bottom: 0;
+        
+      }
+      u{
+        margin-top: -2px;
+      }
+    }
+
+  }
+}

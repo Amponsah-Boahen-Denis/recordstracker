@@ -1,0 +1,42 @@
+.cop{
+  background-color:white;
+ min-height: 60vh;
+ max-height: auto;
+  margin-top:20vh; 
+  width:30vh; 
+  border-left: 1px solid black;
+  color: black;
+  h1{
+    font-size:15px;
+    color: green;
+    margin: 4px;
+  }
+  .invest-list{
+    border: 1px solid black;
+    margin-right: 10px;
+    font-family: sans-serif;
+    height:auto;
+    margin-bottom:5px;
+    img{
+      position: relative;
+      height:17px;
+      width: 25px;
+      margin-left:10px;
+      margin-bottom: 0;
+      background-color: gray;
+      border-radius: 5px;
+    }
+    button{
+      background-color: white;
+      margin-left: 140px;
+      border-width: 0;
+      color:red;
+    }
+    p{
+      margin-top: -2px;
+    font-size: 15px;
+      
+    }
+    
+  }
+}
