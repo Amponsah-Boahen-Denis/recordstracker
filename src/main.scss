@@ -9,18 +9,34 @@ color:black;
    height: 50%;
    border-bottom:1px solid black ;
    width: 100%;
-  
-   
+  .div{
+display: flex;
+margin-top: 20px;
 i{
-   margin-left:150px;
-   position: relative;
-   color: rgb(23, 226, 23);
+   color: blue;
+   margin-left: 50px;
+   font-size: 15px;
 }
 b{
-   margin-left: 170px;
-   margin-bottom: 20px;
-   
+   color: black;
+   margin-left: 80px;
 }
+  }
+  .total{
+     margin-top:30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     i{
+        margin: 0;
+        color: blue;
+     }
+     b{
+        margin-top: -10px;
+     }
+  }
+
 }
 .img{
    display: flex;
@@ -29,8 +45,9 @@ b{
    height: 50%;
    width: 100%;
    img{
-      height: 90%;
+      height: 80%;
       width: 80%;
+      margin-bottom:20px;
    }
 }
 }

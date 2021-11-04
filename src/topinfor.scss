@@ -5,7 +5,7 @@ background:white;
  height: 20vh;
 width:121vh;
 //min-width: auto;
-  border-radius: 5px;
+  border-radius:10px;
 margin-right: -80vh;
 .user{
     display: flex;
@@ -19,13 +19,17 @@ margin-right: -80vh;
         height: 20px;
         border-radius: 6px;
         margin: 3px;
+        border: hidden;
+        background-color: wheat;
         
     }
     button{
         border-radius: 5px;
         background-color: blue;
+        width: 90px;
         color: white;
-        margin-bottom:2px ;
+        margin-top:2px ;
+        border: hidden;
     }
 }
 .invest{
@@ -41,12 +45,16 @@ margin-right: -80vh;
         background-color: blue;
         color: white;
         margin-top: 4px;
+        border: hidden;
+        width: 90px;
     }
     input{
         width: 200px;
         height: 20px;
         border-radius: 6px;
         margin: 5px;
+        border: hidden;
+        background-color: wheat;
     }
 }
 }
