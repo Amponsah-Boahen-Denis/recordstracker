@@ -15,9 +15,11 @@ function Topinfor(){
     } = useContext(Context);
   const add=(e)=>{
   e.preventDefault();
+  // this code check for validation
   if(user.current.value==='') return user.current.focus();
   if(date.current.value==='') return date.current.focus();
   if(cost.current.value==='') return cost.current.focus();
+  // this code is the array of customer details
   setCustomer([...customer,{"user1":user.current.value,
   "date1":date.current.value,
   "cost1":cost.current.value,
@@ -27,6 +29,7 @@ function Topinfor(){
   user.current.value='',
   date.current.value='',
   cost.current.value='',
+  // this code increase the number of customers.
   setNcustomers(ncustomers + 1)
   )
   
@@ -36,6 +39,7 @@ function Topinfor(){
       e.preventDefault();
       if(invest.current.value==='') return invest.current.focus();
       if(amcont.current.value==='') return amcont.current.focus();
+      //this code shows the array of investors details.
       setInvestor([...investor,{"investor1":invest.current.value,
       "cont1":amcont.current.value,
       "complet":false,
@@ -44,6 +48,7 @@ function Topinfor(){
       }],
       invest.current.value='',
       amcont.current.value='',
+      // this code increase the number of investtors
       setNinvestors(ninvestors + 1)
   
       );

@@ -6,6 +6,7 @@ const {costcustomer,customer,setCostcustomer,
     setCostinvestor,investor,
    costinvestor} = useContext(Context);
 const [total,setTotal]=useState(costcustomer + costinvestor)
+//this code calculate the total income of customers
     useEffect(useCallback(
         () => {
             let calc=0;
@@ -15,6 +16,7 @@ const [total,setTotal]=useState(costcustomer + costinvestor)
             setCostcustomer(calc)
        }, [customer])  
     )
+    //this code also calculate the total income of investors
    useEffect(useCallback(
     () => {
         let calc=0;
@@ -25,6 +27,7 @@ const [total,setTotal]=useState(costcustomer + costinvestor)
     }, [investor])
     
    );
+   // this code also add the total income of customers and investors.
 useEffect(useCallback(() => {
     setTotal(costcustomer + costinvestor)
 }, [costcustomer,costinvestor]))
