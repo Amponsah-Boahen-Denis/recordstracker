@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/recordstracker-deploy/static/css/main.cb79a8a3.chunk.css",
-    "main.js": "/recordstracker-deploy/static/js/main.2a1fc542.chunk.js",
-    "main.js.map": "/recordstracker-deploy/static/js/main.2a1fc542.chunk.js.map",
+    "main.js": "/recordstracker-deploy/static/js/main.b588542e.chunk.js",
+    "main.js.map": "/recordstracker-deploy/static/js/main.b588542e.chunk.js.map",
     "runtime-main.js": "/recordstracker-deploy/static/js/runtime-main.4ad153a4.js",
     "runtime-main.js.map": "/recordstracker-deploy/static/js/runtime-main.4ad153a4.js.map",
     "static/js/2.9347faee.chunk.js": "/recordstracker-deploy/static/js/2.9347faee.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.4ad153a4.js",
     "static/js/2.9347faee.chunk.js",
     "static/css/main.cb79a8a3.chunk.css",
-    "static/js/main.2a1fc542.chunk.js"
+    "static/js/main.b588542e.chunk.js"
   ]
 }
