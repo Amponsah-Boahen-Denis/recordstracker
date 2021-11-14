@@ -53,7 +53,7 @@ useEffect(useCallback(() => {
 
        </div>
 <div className='img'>
-<img src="/fotos/code.png" alt="" />
+<img src="./code.png" alt="" />
 </div>
         </div>
     )
