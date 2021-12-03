@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recordstracker-deploy/static/css/main.1fb569fd.chunk.css",
+    "main.css": "/recordstracker-deploy/static/css/main.dec6a2dc.chunk.css",
     "main.js": "/recordstracker-deploy/static/js/main.04e11d48.chunk.js",
     "main.js.map": "/recordstracker-deploy/static/js/main.04e11d48.chunk.js.map",
     "runtime-main.js": "/recordstracker-deploy/static/js/runtime-main.4ad153a4.js",
@@ -8,7 +8,7 @@
     "static/js/2.4758f456.chunk.js": "/recordstracker-deploy/static/js/2.4758f456.chunk.js",
     "static/js/2.4758f456.chunk.js.map": "/recordstracker-deploy/static/js/2.4758f456.chunk.js.map",
     "index.html": "/recordstracker-deploy/index.html",
-    "static/css/main.1fb569fd.chunk.css.map": "/recordstracker-deploy/static/css/main.1fb569fd.chunk.css.map",
+    "static/css/main.dec6a2dc.chunk.css.map": "/recordstracker-deploy/static/css/main.dec6a2dc.chunk.css.map",
     "static/js/2.4758f456.chunk.js.LICENSE.txt": "/recordstracker-deploy/static/js/2.4758f456.chunk.js.LICENSE.txt",
     "static/media/code.png": "/recordstracker-deploy/static/media/code.f762e36f.png",
     "static/media/person.png": "/recordstracker-deploy/static/media/person.4ce1ce10.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ad153a4.js",
     "static/js/2.4758f456.chunk.js",
-    "static/css/main.1fb569fd.chunk.css",
+    "static/css/main.dec6a2dc.chunk.css",
     "static/js/main.04e11d48.chunk.js"
   ]
 }
