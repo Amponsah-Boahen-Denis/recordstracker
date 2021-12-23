@@ -20,7 +20,7 @@ function Customers() {
         localStorage.setItem('keep',stores)
         localStorage.setItem('keepn',storen)
       },[customer])
-      //deletting customer
+      //deleting customer
         const del=((id) => {
     setCustomer([...customer].filter(dlt =>dlt.id!==id));
     setNcustomers(ncustomers - 1)
@@ -49,7 +49,7 @@ function Customers() {
             <input type='checkbox' onChange={()=>compl(customer.id)}
             checked={customer.complete}/>
             <button onClick={()=>del(customer.id)}>x</button></b>
-           <b><img src="/fotos/person.png" alt=""/>{customer.user1}- 
+           <b><img src={require("./person.png").default} alt=""/>{customer.user1}- 
             ${new Intl.NumberFormat().format(customer.cost1)}</b> 
            </div>
              

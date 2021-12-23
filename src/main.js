@@ -1,6 +1,7 @@
 import React,{useEffect,useState,useCallback,useContext} from 'react'
 import {Context} from './App.js'
 import './main.scss'
+import mage from './code.png'
 function Main(){
 const {costcustomer,customer,setCostcustomer,
     setCostinvestor,investor,
@@ -53,7 +54,7 @@ useEffect(useCallback(() => {
 
        </div>
 <div className='img'>
-<img src="./code.png" alt="" />
+<img src={require('./code.png').default} alt="" />
 </div>
         </div>
     )

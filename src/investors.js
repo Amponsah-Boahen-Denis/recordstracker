@@ -16,21 +16,21 @@ function Investors() {
       },[])
       useEffect(()=>{
         const store=JSON.stringify(investor);
-        const storeni=JSON.stringify(ninvestors);
+        const store2=JSON.stringify(ninvestors);
         localStorage.setItem('main',store)
-        localStorage.setItem('ninv',storeni)
+        localStorage.setItem('ninv',store2)
       },[investor])
       // this code delete data.
   const de=((id) => {
     setInvestor([...investor].filter(dlt =>dlt.id!==id));
-    //this code increase the number of investors.
+    //this code decrease the number of investors.
     setNinvestors(ninvestors - 1)
 });
 // this code toggle investors
 const complet=(id)=>{
   const toggl=[...investor].map((investor)=>{
      if(investor.id===id){
-      investor.complet=!investor.complet
+      investor.complete=!investor.complete
      }
      return investor  
  }
@@ -47,10 +47,11 @@ const complet=(id)=>{
           
           {[...investor].map((invest)=> <div key={invest.id} className='invest-list'>
             <button onClick={()=>de(invest.id)}>x</button>
-            <p> <img src="/fotos/person3.png" alt="" /> {invest.investor1} -
+            <p> <img src={require("./person2.png").default} alt="" />
+             {invest.investor1} -
             <input type='checkbox' onChange={()=>complet(invest.id)}
             checked={invest.complete}/>-
-                ${new Intl.NumberFormat().format(invest.cont1)}</p>
+            ${new Intl.NumberFormat().format(invest.cont1)}</p>
             
              </div>)}  
         </div>

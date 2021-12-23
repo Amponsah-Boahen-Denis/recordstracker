@@ -1,10 +1,11 @@
 .main{
-   background-color: white;
-   height: 60vh;
-margin-top: 20vh;
+background-color: white;
+height: 60vh;
+margin-top: 23vh;
 width: 60vh;
-
 color:black;
+margin-left: 25px;
+border-radius: 20px;
 .cal{
    height: 50%;
    border-bottom:1px solid black ;
@@ -12,6 +13,7 @@ color:black;
   .div{
 display: flex;
 margin-top: 20px;
+position:static;
 i{
    color: blue;
    margin-left: 50px;

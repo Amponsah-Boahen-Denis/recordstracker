@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 .App{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
-    url(./back.jpg);
+    background-color: white;
     background-size:cover;
     background-position:center ;
    min-height:100vh;
@@ -16,21 +15,21 @@
     align-items: center;
     h2{
         color: blue;
-        font-size: 35px;
+        font-size: 30px;
         font-family:serif;
         justify-self: center;
-       // margin-left: 35%;
         margin-bottom: 10px;
     }
     .data{
-        border:2px solid black;
+        background-color:whitesmoke;
         display: flex;
         justify-content: center;
-        height: 80vh;
-       width: 120vh;
-      position: relative;
-        margin-top: 20px;
+        height: 90vh;
+       width: 150vh;
+       border-radius: 10px;
+        margin-bottom: 10px;
         align-self: center;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
         
     }
 }

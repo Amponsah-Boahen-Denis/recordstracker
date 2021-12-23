@@ -1,11 +1,12 @@
 .cop{
   background-color:white;
    height: 60vh;
-   margin-top:20vh; 
-   width:30vh; 
-   border-left: 1px solid black;
+   margin-top:25vh; 
+   width:33vh; 
+   margin-left:20px;
+   border-radius: 20px;
   h1{
-    font-size:15px;
+    font-size:14px;
     position: relative;
     display:flex ;
     justify-content: center;
@@ -18,23 +19,24 @@
       color: black;
       margin-left: 4px;
       font-family: 'Lucida Sans';
-      font-size: 17px;
+      font-size: 15px;
     }
   }
   .div1{
     overflow: hidden;
     overflow-y: scroll;
     height: 53vh;
-    margin-top: 5px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
     .div{
        .invest-list{
-         border: 0.5px solid grey;
-         margin-right: 10px;
+         background-color: whitesmoke;
+         margin-top:10px;
          font-family: sans-serif;
-         height:auto;
-         margin-bottom:5px;
-         margin-left: 5px;
-         
+         width:170px;
+         border-radius:5px;
+         color: yellowgreen;
          img{
            position: relative;
            height:17px;

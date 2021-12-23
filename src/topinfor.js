@@ -15,7 +15,7 @@ function Topinfor(){
     } = useContext(Context);
   const add=(e)=>{
   e.preventDefault();
-  // this code check for validation
+  // this code checks for validation
   if(user.current.value==='') return user.current.focus();
   if(date.current.value==='') return date.current.focus();
   if(cost.current.value==='') return cost.current.focus();
