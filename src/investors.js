@@ -6,7 +6,7 @@ function Investors() {
   // this code stores data
   useEffect(()=>{
         const inve=localStorage.getItem('main')
-        const inves=localStorage.getItem('ninv')
+        const inves=localStorage.getItem('ninvestors')
         const load=JSON.parse(inve)
         const loadin=JSON.parse(inves)
           if(load){
@@ -18,7 +18,7 @@ function Investors() {
         const store=JSON.stringify(investor);
         const store2=JSON.stringify(ninvestors);
         localStorage.setItem('main',store)
-        localStorage.setItem('ninv',store2)
+        localStorage.setItem('ninvestors',store2)
       },[investor])
       // this code delete data.
   const de=((id) => {

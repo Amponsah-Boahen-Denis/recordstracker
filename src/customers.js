@@ -6,9 +6,9 @@ function Customers() {
     //this code stores data
    useEffect(()=>{
         const costms=localStorage.getItem('keep')
-        const costn=localStorage.getItem('keepn')
+        const costnumber=localStorage.getItem('keepnumber')
         const loads=JSON.parse(costms)
-        const loadn=JSON.parse(costn)
+        const loadn=JSON.parse(costnumber)
         if(loads || loadn){
           setCustomer(loads)
           setNcustomers(loadn)
@@ -16,9 +16,9 @@ function Customers() {
       },[])
       useEffect(()=>{
         const stores=JSON.stringify(customer);
-        const storen=JSON.stringify(ncustomers);
+        const storenumber=JSON.stringify(ncustomers);
         localStorage.setItem('keep',stores)
-        localStorage.setItem('keepn',storen)
+        localStorage.setItem('keepnumber',storenumber)
       },[customer])
       //deleting customer
         const del=((id) => {
