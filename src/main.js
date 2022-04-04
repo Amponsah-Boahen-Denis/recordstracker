@@ -5,8 +5,8 @@ import mage from './code.png'
 function Main(){
 const {costcustomer,customer,setCostcustomer,
     setCostinvestor,investor,
-   costinvestor} = useContext(Context);
-const [total,setTotal]=useState(costcustomer + costinvestor)
+    costinvestor} = useContext(Context);
+    const [total,setTotal]=useState(costcustomer + costinvestor)
 //this code calculate the total income of customers
     useEffect(useCallback(
         () => {
