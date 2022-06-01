@@ -48,7 +48,7 @@ function Topinfor(){
       }],
       invest.current.value='',
       amcont.current.value='',
-      // this code increase the number of investtors
+      // this code increase the number of investors
       setNinvestors(ninvestors + 1)
   
       );
